@@ -80,7 +80,7 @@
                 $menu = $_POST['menu'];
               }
               if (!empty($menu)) {
-                echo '<input type="text" class="form-control" id="StandardRoom" name="room" readonly value='.$menu.'>';
+                echo '<input type="text" class="form-control" id="StandardRoom" name="rooms" readonly value='.$menu.'>';
               }else {
                 echo '<select id="disabledSelect" class="form-control" name="room">';
                 echo '<option value="Standard" selected>Standard</option>';
@@ -96,11 +96,11 @@
             <div class="col-sm-10">
               <label for="service-hotel" class="service-ho" style="font-size:13px; margin-bottom:1px; margin-top:5px;">$20/Service</label>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck1" name="service[]" value="Room Service">
+                <input class="form-check-input" type="checkbox" id="gridCheck1" name="service" value="Room Service">
                 <label class="form-check-label" for="gridCheck1" style="margin-top:-20px;">Room Service</label>
               </div>
               <div class="form-check breakfast" style="margin-top:10px">
-                <input class="form-check-input" type="checkbox" id="gridCheck2" name="service[]" value="Breakfast">
+                <input class="form-check-input" type="checkbox" id="gridCheck2" name="service" value="Breakfast">
                 <label class="form-check-label" for="gridCheck2" style="margin-top:-20px;">Breakfast</label>
               </div>
             </div>
