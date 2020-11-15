@@ -72,7 +72,7 @@
                     <div class="card-body grey-color">
                         <form action="Booking.php" method="get">
                             <input type="hidden" name="image" value="kasur1.jpg"/>
-                        <small class="text-muted"><button type="submit" value="Standard" name="menus" class="card-link btn btn-primary text-center">Book Now</button></small>
+                        <small class="text-muted"><button type="submit" value="Standard" name="menu" class="card-link btn btn-primary text-center">Book Now</button></small>
                         </form>
                       </div>
                     </div>
@@ -95,7 +95,7 @@
                     <div class="card-body grey-color">
                         <form action="Booking.php" method="get">
                         <input type="hidden" name="img" value="kasur2.jpg"/>
-                        <small class="text-muted"><button type="submit" value="Superior" name="menus" class="card-link btn btn-primary">Book Now</button></small>
+                        <small class="text-muted"><button type="submit" value="Superior" name="menu" class="card-link btn btn-primary">Book Now</button></small>
                         </form>
                       </div>
                     </div>
@@ -120,7 +120,7 @@
                     <div class="card-body grey-color">
                         <form action="Booking.php" method="get">
                         <input type="hidden" name="img" value="kasur3.jpg"/>
-                        <small class="text-muted"><button type="submit" value="Luxury" name="menus" class="card-link btn btn-primary">Book Now</button></small>
+                        <small class="text-muted"><button type="submit" value="Luxury" name="menu" class="card-link btn btn-primary">Book Now</button></small>
                         </form>
                       </div>
                     </div>
