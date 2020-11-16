@@ -3,7 +3,7 @@
  if( !isset($_GET['id'])){
      header('Loctation: Home.php');
  }
- $id=$_GET['id'];
+ $id=$_GET['Id'];
  $sql = "select * from event where id=$id";
  $query = mysqli_query($db, $sql);
  $list = mysqli_fetch_array($query);

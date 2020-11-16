@@ -24,7 +24,7 @@
  			$xx = $rand.'_'.$filename;
  			move_uploaded_file($tmp_file, 'file/'.$rand.'_'.$filename);
  			$benefit = implode(",", $_POST['benefit']);
-			$sql = "update event set name='$name', deskripsi='$deskripsi', gambar='$xx', kategori='$kategori', tanggal='$tanggal', mulai='$mulai', berakhir='$berakhir', tempat='$tempat', harga='$harga', benefit='$benefit' where id=$id";
+			$sql = "update events set name='$name', deskripsi='$deskripsi', gambar='$xx', kategori='$kategori', tanggal='$tanggal', mulai='$mulai', berakhir='$berakhir', tempat='$tempat', harga='$harga', benefit='$benefit' where id=$id";
 			$query = mysqli_query($db, $sql);
 			header('location: Home.php?status=success');
  		}else{

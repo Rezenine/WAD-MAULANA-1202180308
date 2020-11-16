@@ -1,5 +1,5 @@
 <?php
- include("connection.php");
+
  $sql = ("select *from event");
  $query = mysqli_query($db, $sql);
  ?>
