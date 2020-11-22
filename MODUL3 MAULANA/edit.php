@@ -33,7 +33,7 @@
 
 }else{
 			$benefit = implode(",", $_POST['benefit']);
-			$sql = "update event set name='$name', deskripsi='$deskripsi', kategori='$kategori', tanggal='$tanggal', mulai='$mulai', berakhir='$berakhir', tempat='$tempat', harga='$harga', benefit='$benefit' where id=$id";
+			$sql = "update event set name='$name', deskripsi='$deskripsi', gambar='$xx', kategori='$kategori', tanggal='$tanggal', mulai='$mulai', berakhir='$berakhir', tempat='$tempat', harga='$harga', benefit='$benefit' where id=$id";
 			$query = mysqli_query($db, $sql);
 			header('location: Home.php?status=success');
 }	

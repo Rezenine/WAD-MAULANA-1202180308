@@ -25,7 +25,7 @@
  				$xx = $rand.'_'.$filename;
 				move_uploaded_file($tmp_file, 'file/'.$rand.'_'.$filename); 
 				$data_benefit = implode(",", $_POST['benefit']);
-                mysql_query($db, "insert into event (name, deskripsi, gambar, kategori, tanggal, mulai, berakhir, tempat, harga, benefit) value 
+                mysqli_query($db, "insert into event (name, deskripsi, gambar, kategori, tanggal, mulai, berakhir, tempat, harga, benefit) value 
                 ('$name', '$deskripsi', '$xx', '$kategori', '$tanggal', '$mulai', '$berakhir', '$tempat', '$harga', '$data_benefit')");
 				header('location: Home.php?status=success');
 			}else{
