@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("connection.php");
 if(isset($_POST['submit'])){
     $email = $_POST['email'];
@@ -10,7 +11,7 @@ if(isset($_POST['submit'])){
 
     if (mysqli_num_rows($query) == 1) {
         $row = mysqli_fetch_assoc($query);
-        $_SESSION['Id'] = $row["Id"];
+        $_SESSION['id'] = $row["id"];
         $_SESSION['name'] = $row["nama"];
         $_SESSION['color'] = "light";
 
