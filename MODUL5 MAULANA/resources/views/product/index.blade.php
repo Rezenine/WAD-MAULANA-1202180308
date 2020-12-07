@@ -7,7 +7,7 @@
     <div class="row justify-content-center mt-3 ">
         <div class="col-sm ">
             <p>There is no data</p>
-            <a href="{{ route('product.create') }}" type="button" class="btn btn-dark">Add Product</a>
+            <a href="{{ route('product.creates') }}" type="button" class="btn btn-dark">Add Product</a>
         </div>
     </div> 
 </div>

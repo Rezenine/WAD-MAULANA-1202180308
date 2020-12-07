@@ -1,10 +1,10 @@
 @extends('navbar')
 
-@section('content')
+@section('contents')
 
 <center> <h3>Insert Product</h3> </center>
-<form method="POST" action="{{route('product.store')}}" enctype="multipart/form-data">
-@csrf
+<form method="POST" action="{{route('product.stores')}}" enctype="multipart/form-data">
+
 <div class="form-group mt-4">
     <label>Product Name</label>
     <input type="text" class="form-control" name="name">

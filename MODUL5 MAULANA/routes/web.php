@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 
-Route::resource('/order', 'App\Http\Controllers\OrderController');
-Route::resource('/product', 'App\Http\Controllers\ProductController');
+Route::resource('/order', 'App\Http\Controller\OrderController');
+Route::resource('/product', 'App\Http\Controller\ProductController');
